@@ -55,6 +55,8 @@
 }
 
 .service_grid{}
+.service_grid{}
+.service_grid{}
 .service_grid .item1 {
     clip-path: polygon(100% 0%, 100% 64.3%, 90% 62.3%, 78.8% 63.5%, 72.3% 70.5%, 68.3% 84.3%, 68.7% 99.5%, 0% 100%, 0% 0%);
     width: 30%;
@@ -91,4 +93,8 @@
     background: #9a9a9a;
     border-radius: 50%;
     border: 10px solid var(--clr);
+}
+
+.item3{
+    color: #000;
 }
