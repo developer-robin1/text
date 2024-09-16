@@ -1,0 +1,94 @@
+.main {
+    background: url(../images/Frame\ 58.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 878px;
+    position: relative;
+    padding: 116px 0 51px 0;
+    z-index: -11;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.secvice_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 116px 0 96px 0;
+}
+.secvice_title h3{
+    font-size: 48px;
+    color: #FCFCFD;
+    width: 50%;
+}
+.secvice_title h3 span{
+    color: #FD853A;
+    display: inline-block;
+}
+.secvice_title p {
+    font-size: 20px;
+    color: #fff;
+    width: 50%;
+    padding-left: 261px;
+}
+
+.shap1 {
+    position: absolute;
+    top: 234px;
+    left: 0;
+    z-index: -1;
+}
+.shap2 {
+    position: absolute;
+    top: 199px;
+    left: 35%;
+    z-index: -1;
+}
+.shap3{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    z-index: -1;
+}
+
+.service_grid{}
+.service_grid .item1 {
+    clip-path: polygon(100% 0%, 100% 64.3%, 90% 62.3%, 78.8% 63.5%, 72.3% 70.5%, 68.3% 84.3%, 68.7% 99.5%, 0% 100%, 0% 0%);
+    width: 30%;
+    place-items: center;
+    aspect-ratio: 1;
+    background: #ffffff8c;
+    border-radius: 25px;
+    position: relative;
+}
+.service_grid .item1::before {
+    content: "";
+    position: absolute;
+    bottom: 145px;
+    right: 0;
+    background-color: #ddd;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.service_grid .item1 img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+}
+
+.round{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 80px;
+    width: 80px;
+    background: #9a9a9a;
+    border-radius: 50%;
+    border: 10px solid var(--clr);
+}
